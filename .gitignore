@@ -1,0 +1,65 @@
+# Django specific
+*.log
+*.pot
+*.pyc
+__pycache__/
+**/__pycache__/
+db.sqlite3
+media/
+staticfiles/
+
+# Environment variables
+.env
+*.env
+
+# IDE specific
+.vscode/
+.idea/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Django migrations
+*/migrations/*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*.swp
+*.swo
+
+# Custom
+.pass
+
+# Virtual environment
+venv/
+venv_blog_with_auth/
+
+# Additional
+.python-version         # pyenv
+Pipfile.lock            # Pipenv
